@@ -1,0 +1,342 @@
+{"Time":"2022-12-04T02:28:26.936207+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare"}
+{"Time":"2022-12-04T02:28:26.936434+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare","Output":"=== RUN   TestCompare\n"}
+{"Time":"2022-12-04T02:28:26.936453+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/unknown_Comparator"}
+{"Time":"2022-12-04T02:28:26.936468+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/unknown_Comparator","Output":"=== RUN   TestCompare/unknown_Comparator\n"}
+{"Time":"2022-12-04T02:28:26.936753+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/unknown_Comparator","Output":"=== PAUSE TestCompare/unknown_Comparator\n"}
+{"Time":"2022-12-04T02:28:26.936764+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/unknown_Comparator"}
+{"Time":"2022-12-04T02:28:26.936771+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_false"}
+{"Time":"2022-12-04T02:28:26.936776+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_false","Output":"=== RUN   TestCompare/ComparatorEQ(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.937138+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_false","Output":"=== PAUSE TestCompare/ComparatorEQ(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.937166+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_false"}
+{"Time":"2022-12-04T02:28:26.937176+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_true"}
+{"Time":"2022-12-04T02:28:26.937183+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_true","Output":"=== RUN   TestCompare/ComparatorEQ(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.937197+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_true","Output":"=== PAUSE TestCompare/ComparatorEQ(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.937203+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_true"}
+{"Time":"2022-12-04T02:28:26.937213+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_false"}
+{"Time":"2022-12-04T02:28:26.937219+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_false","Output":"=== RUN   TestCompare/ComparatorNE(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.937226+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_false","Output":"=== PAUSE TestCompare/ComparatorNE(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.937231+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_false"}
+{"Time":"2022-12-04T02:28:26.937241+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_true"}
+{"Time":"2022-12-04T02:28:26.937247+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_true","Output":"=== RUN   TestCompare/ComparatorNE(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.937253+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_true","Output":"=== PAUSE TestCompare/ComparatorNE(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.937258+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_true"}
+{"Time":"2022-12-04T02:28:26.937264+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_true"}
+{"Time":"2022-12-04T02:28:26.937285+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_true","Output":"=== RUN   TestCompare/ComparatorLT(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.937295+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_true","Output":"=== PAUSE TestCompare/ComparatorLT(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.937301+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_true"}
+{"Time":"2022-12-04T02:28:26.937309+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_1"}
+{"Time":"2022-12-04T02:28:26.937315+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_1","Output":"=== RUN   TestCompare/ComparatorLT(string)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.937328+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_1","Output":"=== PAUSE TestCompare/ComparatorLT(string)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.937334+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_1"}
+{"Time":"2022-12-04T02:28:26.937341+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_2"}
+{"Time":"2022-12-04T02:28:26.937347+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_2","Output":"=== RUN   TestCompare/ComparatorLT(string)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.937354+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_2","Output":"=== PAUSE TestCompare/ComparatorLT(string)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.937361+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_2"}
+{"Time":"2022-12-04T02:28:26.937368+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_1"}
+{"Time":"2022-12-04T02:28:26.937374+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_1","Output":"=== RUN   TestCompare/ComparatorLE(string)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.937382+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_1","Output":"=== PAUSE TestCompare/ComparatorLE(string)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.937388+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_1"}
+{"Time":"2022-12-04T02:28:26.937395+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_2"}
+{"Time":"2022-12-04T02:28:26.937401+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_2","Output":"=== RUN   TestCompare/ComparatorLE(string)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.937409+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_2","Output":"=== PAUSE TestCompare/ComparatorLE(string)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.937418+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_2"}
+{"Time":"2022-12-04T02:28:26.937425+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_false"}
+{"Time":"2022-12-04T02:28:26.937434+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_false","Output":"=== RUN   TestCompare/ComparatorLE(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.937454+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_false","Output":"=== PAUSE TestCompare/ComparatorLE(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.937459+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_false"}
+{"Time":"2022-12-04T02:28:26.937466+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_true"}
+{"Time":"2022-12-04T02:28:26.937472+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_true","Output":"=== RUN   TestCompare/ComparatorGT(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.937478+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_true","Output":"=== PAUSE TestCompare/ComparatorGT(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.937483+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_true"}
+{"Time":"2022-12-04T02:28:26.937489+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_1"}
+{"Time":"2022-12-04T02:28:26.937495+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_1","Output":"=== RUN   TestCompare/ComparatorGT(string)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.937501+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_1","Output":"=== PAUSE TestCompare/ComparatorGT(string)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.937506+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_1"}
+{"Time":"2022-12-04T02:28:26.937512+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_2"}
+{"Time":"2022-12-04T02:28:26.937519+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_2","Output":"=== RUN   TestCompare/ComparatorGT(string)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.937525+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_2","Output":"=== PAUSE TestCompare/ComparatorGT(string)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.937534+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_2"}
+{"Time":"2022-12-04T02:28:26.93754+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_1"}
+{"Time":"2022-12-04T02:28:26.937546+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_1","Output":"=== RUN   TestCompare/ComparatorGE(string)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.937552+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_1","Output":"=== PAUSE TestCompare/ComparatorGE(string)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.937558+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_1"}
+{"Time":"2022-12-04T02:28:26.937565+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_2"}
+{"Time":"2022-12-04T02:28:26.93757+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_2","Output":"=== RUN   TestCompare/ComparatorGE(string)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.937577+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_2","Output":"=== PAUSE TestCompare/ComparatorGE(string)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.937583+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_2"}
+{"Time":"2022-12-04T02:28:26.937601+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_false"}
+{"Time":"2022-12-04T02:28:26.937607+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_false","Output":"=== RUN   TestCompare/ComparatorGE(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.937612+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_false","Output":"=== PAUSE TestCompare/ComparatorGE(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.937617+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_false"}
+{"Time":"2022-12-04T02:28:26.937631+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_false"}
+{"Time":"2022-12-04T02:28:26.937639+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_false","Output":"=== RUN   TestCompare/ComparatorEQ(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.937644+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_false","Output":"=== PAUSE TestCompare/ComparatorEQ(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.937682+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_false"}
+{"Time":"2022-12-04T02:28:26.937804+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_true"}
+{"Time":"2022-12-04T02:28:26.937827+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_true","Output":"=== RUN   TestCompare/ComparatorEQ(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.937836+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_true","Output":"=== PAUSE TestCompare/ComparatorEQ(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.937841+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_true"}
+{"Time":"2022-12-04T02:28:26.937846+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_false"}
+{"Time":"2022-12-04T02:28:26.93785+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_false","Output":"=== RUN   TestCompare/ComparatorNE(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.937855+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_false","Output":"=== PAUSE TestCompare/ComparatorNE(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.93786+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_false"}
+{"Time":"2022-12-04T02:28:26.937864+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_true"}
+{"Time":"2022-12-04T02:28:26.937868+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_true","Output":"=== RUN   TestCompare/ComparatorNE(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.937872+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_true","Output":"=== PAUSE TestCompare/ComparatorNE(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.937876+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_true"}
+{"Time":"2022-12-04T02:28:26.93788+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_true"}
+{"Time":"2022-12-04T02:28:26.937884+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_true","Output":"=== RUN   TestCompare/ComparatorLT(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.937905+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_true","Output":"=== PAUSE TestCompare/ComparatorLT(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.93791+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_true"}
+{"Time":"2022-12-04T02:28:26.937915+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_1"}
+{"Time":"2022-12-04T02:28:26.937919+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_1","Output":"=== RUN   TestCompare/ComparatorLT(int)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.937924+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_1","Output":"=== PAUSE TestCompare/ComparatorLT(int)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.937928+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_1"}
+{"Time":"2022-12-04T02:28:26.937932+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_2"}
+{"Time":"2022-12-04T02:28:26.937936+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_2","Output":"=== RUN   TestCompare/ComparatorLT(int)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.937941+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_2","Output":"=== PAUSE TestCompare/ComparatorLT(int)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.937945+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_2"}
+{"Time":"2022-12-04T02:28:26.937949+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_1"}
+{"Time":"2022-12-04T02:28:26.937953+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_1","Output":"=== RUN   TestCompare/ComparatorLE(int)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.937957+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_1","Output":"=== PAUSE TestCompare/ComparatorLE(int)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.937961+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_1"}
+{"Time":"2022-12-04T02:28:26.937965+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_2"}
+{"Time":"2022-12-04T02:28:26.937969+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_2","Output":"=== RUN   TestCompare/ComparatorLE(int)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.937974+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_2","Output":"=== PAUSE TestCompare/ComparatorLE(int)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.937978+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_2"}
+{"Time":"2022-12-04T02:28:26.937983+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_false"}
+{"Time":"2022-12-04T02:28:26.937988+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_false","Output":"=== RUN   TestCompare/ComparatorLE(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.937993+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_false","Output":"=== PAUSE TestCompare/ComparatorLE(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.937997+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_false"}
+{"Time":"2022-12-04T02:28:26.938009+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_true"}
+{"Time":"2022-12-04T02:28:26.938014+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_true","Output":"=== RUN   TestCompare/ComparatorGT(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.938018+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_true","Output":"=== PAUSE TestCompare/ComparatorGT(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.938022+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_true"}
+{"Time":"2022-12-04T02:28:26.938026+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_1"}
+{"Time":"2022-12-04T02:28:26.938031+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_1","Output":"=== RUN   TestCompare/ComparatorGT(int)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.938035+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_1","Output":"=== PAUSE TestCompare/ComparatorGT(int)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.938039+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_1"}
+{"Time":"2022-12-04T02:28:26.938043+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_2"}
+{"Time":"2022-12-04T02:28:26.938049+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_2","Output":"=== RUN   TestCompare/ComparatorGT(int)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.938054+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_2","Output":"=== PAUSE TestCompare/ComparatorGT(int)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.938058+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_2"}
+{"Time":"2022-12-04T02:28:26.938062+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_1"}
+{"Time":"2022-12-04T02:28:26.938067+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_1","Output":"=== RUN   TestCompare/ComparatorGE(int)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.938072+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_1","Output":"=== PAUSE TestCompare/ComparatorGE(int)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.938076+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_1"}
+{"Time":"2022-12-04T02:28:26.938081+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_2"}
+{"Time":"2022-12-04T02:28:26.938085+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_2","Output":"=== RUN   TestCompare/ComparatorGE(int)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.93809+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_2","Output":"=== PAUSE TestCompare/ComparatorGE(int)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.938095+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_2"}
+{"Time":"2022-12-04T02:28:26.938099+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_false"}
+{"Time":"2022-12-04T02:28:26.938103+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_false","Output":"=== RUN   TestCompare/ComparatorGE(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.938115+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_false","Output":"=== PAUSE TestCompare/ComparatorGE(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.938119+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_false"}
+{"Time":"2022-12-04T02:28:26.938126+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/unknown_Comparator"}
+{"Time":"2022-12-04T02:28:26.93813+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/unknown_Comparator","Output":"=== CONT  TestCompare/unknown_Comparator\n"}
+{"Time":"2022-12-04T02:28:26.938135+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_false"}
+{"Time":"2022-12-04T02:28:26.938139+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_false","Output":"=== CONT  TestCompare/ComparatorEQ(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.938143+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_false"}
+{"Time":"2022-12-04T02:28:26.938147+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_false","Output":"=== CONT  TestCompare/ComparatorGE(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.938152+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_2"}
+{"Time":"2022-12-04T02:28:26.938155+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_2","Output":"=== CONT  TestCompare/ComparatorGE(string)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.93816+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_1"}
+{"Time":"2022-12-04T02:28:26.938164+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_1","Output":"=== CONT  TestCompare/ComparatorGE(string)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.938168+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_2"}
+{"Time":"2022-12-04T02:28:26.938172+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_2","Output":"=== CONT  TestCompare/ComparatorGT(string)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.93818+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_1"}
+{"Time":"2022-12-04T02:28:26.938184+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_1","Output":"=== CONT  TestCompare/ComparatorGT(string)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.938189+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_true"}
+{"Time":"2022-12-04T02:28:26.938193+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_true","Output":"=== CONT  TestCompare/ComparatorGT(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.938197+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_false"}
+{"Time":"2022-12-04T02:28:26.938201+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_false","Output":"=== CONT  TestCompare/ComparatorLE(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.938205+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_2"}
+{"Time":"2022-12-04T02:28:26.938209+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_2","Output":"=== CONT  TestCompare/ComparatorLE(string)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.93822+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_1"}
+{"Time":"2022-12-04T02:28:26.938224+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_1","Output":"=== CONT  TestCompare/ComparatorLE(string)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.938229+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_2"}
+{"Time":"2022-12-04T02:28:26.938233+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_2","Output":"=== CONT  TestCompare/ComparatorLT(string)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.938237+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_1"}
+{"Time":"2022-12-04T02:28:26.938241+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_1","Output":"=== CONT  TestCompare/ComparatorLT(int)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.938245+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_1"}
+{"Time":"2022-12-04T02:28:26.938249+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_1","Output":"=== CONT  TestCompare/ComparatorLE(int)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.938253+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_2"}
+{"Time":"2022-12-04T02:28:26.938256+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_2","Output":"=== CONT  TestCompare/ComparatorLT(int)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.938263+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_true"}
+{"Time":"2022-12-04T02:28:26.938267+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_true","Output":"=== CONT  TestCompare/ComparatorLT(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.938271+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_1"}
+{"Time":"2022-12-04T02:28:26.938275+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_1","Output":"=== CONT  TestCompare/ComparatorLT(string)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.938279+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_true"}
+{"Time":"2022-12-04T02:28:26.938283+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_true","Output":"=== CONT  TestCompare/ComparatorNE(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.938287+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_true"}
+{"Time":"2022-12-04T02:28:26.938291+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_true","Output":"=== CONT  TestCompare/ComparatorLT(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.938295+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_false"}
+{"Time":"2022-12-04T02:28:26.938299+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_false","Output":"=== CONT  TestCompare/ComparatorNE(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.938304+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_true"}
+{"Time":"2022-12-04T02:28:26.938307+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_true","Output":"=== CONT  TestCompare/ComparatorNE(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.93832+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_true"}
+{"Time":"2022-12-04T02:28:26.938324+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_true","Output":"=== CONT  TestCompare/ComparatorEQ(string)_true\n"}
+{"Time":"2022-12-04T02:28:26.938328+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_true"}
+{"Time":"2022-12-04T02:28:26.938332+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_true","Output":"=== CONT  TestCompare/ComparatorEQ(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.938336+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_false"}
+{"Time":"2022-12-04T02:28:26.93834+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_false","Output":"=== CONT  TestCompare/ComparatorNE(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.938344+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_false"}
+{"Time":"2022-12-04T02:28:26.938348+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_false","Output":"=== CONT  TestCompare/ComparatorEQ(string)_false\n"}
+{"Time":"2022-12-04T02:28:26.938352+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_2"}
+{"Time":"2022-12-04T02:28:26.938356+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_2","Output":"=== CONT  TestCompare/ComparatorGT(int)_false_2\n"}
+{"Time":"2022-12-04T02:28:26.93836+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_false"}
+{"Time":"2022-12-04T02:28:26.938364+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_false","Output":"=== CONT  TestCompare/ComparatorGE(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.938369+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_1"}
+{"Time":"2022-12-04T02:28:26.938373+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_1","Output":"=== CONT  TestCompare/ComparatorGT(int)_false_1\n"}
+{"Time":"2022-12-04T02:28:26.938377+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_2"}
+{"Time":"2022-12-04T02:28:26.93838+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_2","Output":"=== CONT  TestCompare/ComparatorLE(int)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.938385+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_false"}
+{"Time":"2022-12-04T02:28:26.938389+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_false","Output":"=== CONT  TestCompare/ComparatorLE(int)_false\n"}
+{"Time":"2022-12-04T02:28:26.938396+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_true"}
+{"Time":"2022-12-04T02:28:26.9384+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_true","Output":"=== CONT  TestCompare/ComparatorGT(int)_true\n"}
+{"Time":"2022-12-04T02:28:26.938404+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_2"}
+{"Time":"2022-12-04T02:28:26.938408+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_2","Output":"=== CONT  TestCompare/ComparatorGE(int)_true_2\n"}
+{"Time":"2022-12-04T02:28:26.938418+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_1"}
+{"Time":"2022-12-04T02:28:26.938422+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_1","Output":"=== CONT  TestCompare/ComparatorGE(int)_true_1\n"}
+{"Time":"2022-12-04T02:28:26.938435+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare","Output":"--- PASS: TestCompare (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938444+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/unknown_Comparator","Output":"    --- PASS: TestCompare/unknown_Comparator (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938449+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/unknown_Comparator","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938459+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_false","Output":"    --- PASS: TestCompare/ComparatorGE(string)_false (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938469+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_false","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938473+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_2","Output":"    --- PASS: TestCompare/ComparatorGE(string)_true_2 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938478+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_2","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938482+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_1","Output":"    --- PASS: TestCompare/ComparatorGE(string)_true_1 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938487+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(string)_true_1","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.93849+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_false","Output":"    --- PASS: TestCompare/ComparatorEQ(int)_false (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938495+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_false","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938499+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_false","Output":"    --- PASS: TestCompare/ComparatorLE(string)_false (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938503+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_false","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938507+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_2","Output":"    --- PASS: TestCompare/ComparatorGT(string)_false_2 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938515+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_2","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938519+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_1","Output":"    --- PASS: TestCompare/ComparatorGT(string)_false_1 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938523+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_false_1","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938528+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_true","Output":"    --- PASS: TestCompare/ComparatorGT(string)_true (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938532+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(string)_true","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938543+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_2","Output":"    --- PASS: TestCompare/ComparatorLE(string)_true_2 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938547+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_2","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938552+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_1","Output":"    --- PASS: TestCompare/ComparatorLE(string)_true_1 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938556+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(string)_true_1","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.93856+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_2","Output":"    --- PASS: TestCompare/ComparatorLT(string)_false_2 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938564+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_2","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938568+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_1","Output":"    --- PASS: TestCompare/ComparatorLE(int)_true_1 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938573+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_1","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938576+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_1","Output":"    --- PASS: TestCompare/ComparatorLT(int)_false_1 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.93858+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_1","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938584+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_2","Output":"    --- PASS: TestCompare/ComparatorLT(int)_false_2 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938587+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_false_2","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938591+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_true","Output":"    --- PASS: TestCompare/ComparatorLT(int)_true (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938597+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(int)_true","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.9386+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_1","Output":"    --- PASS: TestCompare/ComparatorLT(string)_false_1 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938604+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_false_1","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938607+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_true","Output":"    --- PASS: TestCompare/ComparatorNE(int)_true (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938611+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_true","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938614+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_true","Output":"    --- PASS: TestCompare/ComparatorLT(string)_true (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938617+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLT(string)_true","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938625+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_false","Output":"    --- PASS: TestCompare/ComparatorNE(int)_false (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938629+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(int)_false","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938632+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_true","Output":"    --- PASS: TestCompare/ComparatorNE(string)_true (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938635+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_true","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938638+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_true","Output":"    --- PASS: TestCompare/ComparatorEQ(string)_true (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938642+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_true","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938645+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_true","Output":"    --- PASS: TestCompare/ComparatorEQ(int)_true (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938649+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(int)_true","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938652+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_false","Output":"    --- PASS: TestCompare/ComparatorNE(string)_false (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938655+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorNE(string)_false","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938659+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_false","Output":"    --- PASS: TestCompare/ComparatorEQ(string)_false (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938662+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorEQ(string)_false","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938666+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_2","Output":"    --- PASS: TestCompare/ComparatorGT(int)_false_2 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938669+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_2","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938673+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_false","Output":"    --- PASS: TestCompare/ComparatorGE(int)_false (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938677+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_false","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.93868+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_1","Output":"    --- PASS: TestCompare/ComparatorGT(int)_false_1 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938683+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_false_1","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938686+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_2","Output":"    --- PASS: TestCompare/ComparatorLE(int)_true_2 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.93869+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_true_2","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938693+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_false","Output":"    --- PASS: TestCompare/ComparatorLE(int)_false (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938703+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorLE(int)_false","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938706+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_true","Output":"    --- PASS: TestCompare/ComparatorGT(int)_true (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.93871+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGT(int)_true","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938713+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_2","Output":"    --- PASS: TestCompare/ComparatorGE(int)_true_2 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938717+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_2","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.93872+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_1","Output":"    --- PASS: TestCompare/ComparatorGE(int)_true_1 (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938724+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare/ComparatorGE(int)_true_1","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938727+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestCompare","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938732+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestNewConclusion"}
+{"Time":"2022-12-04T02:28:26.938736+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestNewConclusion","Output":"=== RUN   TestNewConclusion\n"}
+{"Time":"2022-12-04T02:28:26.938741+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestNewConclusion","Output":"--- PASS: TestNewConclusion (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938745+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestNewConclusion","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938748+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestConclusionWithOpts"}
+{"Time":"2022-12-04T02:28:26.938751+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestConclusionWithOpts","Output":"=== RUN   TestConclusionWithOpts\n"}
+{"Time":"2022-12-04T02:28:26.93876+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestConclusionWithOpts","Output":"--- PASS: TestConclusionWithOpts (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938764+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestConclusionWithOpts","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938768+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestNewFact"}
+{"Time":"2022-12-04T02:28:26.938771+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestNewFact","Output":"=== RUN   TestNewFact\n"}
+{"Time":"2022-12-04T02:28:26.938775+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestNewFact","Output":"--- PASS: TestNewFact (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938778+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestNewFact","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938782+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFactWithOpts"}
+{"Time":"2022-12-04T02:28:26.938785+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFactWithOpts","Output":"=== RUN   TestFactWithOpts\n"}
+{"Time":"2022-12-04T02:28:26.93879+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFactWithOpts","Output":"--- PASS: TestFactWithOpts (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938793+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFactWithOpts","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938802+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify"}
+{"Time":"2022-12-04T02:28:26.938805+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify","Output":"=== RUN   TestFact_Verify\n"}
+{"Time":"2022-12-04T02:28:26.938808+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_is_nil"}
+{"Time":"2022-12-04T02:28:26.938811+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_is_nil","Output":"=== RUN   TestFact_Verify/map_is_nil\n"}
+{"Time":"2022-12-04T02:28:26.938815+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_is_nil","Output":"=== PAUSE TestFact_Verify/map_is_nil\n"}
+{"Time":"2022-12-04T02:28:26.938818+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_is_nil"}
+{"Time":"2022-12-04T02:28:26.938829+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_no_property"}
+{"Time":"2022-12-04T02:28:26.938832+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_no_property","Output":"=== RUN   TestFact_Verify/map_no_property\n"}
+{"Time":"2022-12-04T02:28:26.938836+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_no_property","Output":"=== PAUSE TestFact_Verify/map_no_property\n"}
+{"Time":"2022-12-04T02:28:26.938839+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_no_property"}
+{"Time":"2022-12-04T02:28:26.938842+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_is_nil"}
+{"Time":"2022-12-04T02:28:26.938845+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_is_nil","Output":"=== RUN   TestFact_Verify/map_property_is_nil\n"}
+{"Time":"2022-12-04T02:28:26.938849+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_is_nil","Output":"=== PAUSE TestFact_Verify/map_property_is_nil\n"}
+{"Time":"2022-12-04T02:28:26.938852+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_is_nil"}
+{"Time":"2022-12-04T02:28:26.938855+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_type_is_mismatched"}
+{"Time":"2022-12-04T02:28:26.938858+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_type_is_mismatched","Output":"=== RUN   TestFact_Verify/map_property_type_is_mismatched\n"}
+{"Time":"2022-12-04T02:28:26.938862+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_type_is_mismatched","Output":"=== PAUSE TestFact_Verify/map_property_type_is_mismatched\n"}
+{"Time":"2022-12-04T02:28:26.938865+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_type_is_mismatched"}
+{"Time":"2022-12-04T02:28:26.938868+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_less_than_threshold"}
+{"Time":"2022-12-04T02:28:26.938871+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_less_than_threshold","Output":"=== RUN   TestFact_Verify/map_property_less_than_threshold\n"}
+{"Time":"2022-12-04T02:28:26.938879+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_less_than_threshold","Output":"=== PAUSE TestFact_Verify/map_property_less_than_threshold\n"}
+{"Time":"2022-12-04T02:28:26.938882+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_less_than_threshold"}
+{"Time":"2022-12-04T02:28:26.938891+07:00","Action":"run","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_verified"}
+{"Time":"2022-12-04T02:28:26.938894+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_verified","Output":"=== RUN   TestFact_Verify/map_property_verified\n"}
+{"Time":"2022-12-04T02:28:26.938898+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_verified","Output":"=== PAUSE TestFact_Verify/map_property_verified\n"}
+{"Time":"2022-12-04T02:28:26.938902+07:00","Action":"pause","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_verified"}
+{"Time":"2022-12-04T02:28:26.938905+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_is_nil"}
+{"Time":"2022-12-04T02:28:26.938913+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_is_nil","Output":"=== CONT  TestFact_Verify/map_is_nil\n"}
+{"Time":"2022-12-04T02:28:26.938917+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_verified"}
+{"Time":"2022-12-04T02:28:26.93892+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_verified","Output":"=== CONT  TestFact_Verify/map_property_verified\n"}
+{"Time":"2022-12-04T02:28:26.938923+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_less_than_threshold"}
+{"Time":"2022-12-04T02:28:26.938927+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_less_than_threshold","Output":"=== CONT  TestFact_Verify/map_property_less_than_threshold\n"}
+{"Time":"2022-12-04T02:28:26.938931+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_type_is_mismatched"}
+{"Time":"2022-12-04T02:28:26.938934+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_type_is_mismatched","Output":"=== CONT  TestFact_Verify/map_property_type_is_mismatched\n"}
+{"Time":"2022-12-04T02:28:26.938937+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_is_nil"}
+{"Time":"2022-12-04T02:28:26.93894+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_is_nil","Output":"=== CONT  TestFact_Verify/map_property_is_nil\n"}
+{"Time":"2022-12-04T02:28:26.938948+07:00","Action":"cont","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_no_property"}
+{"Time":"2022-12-04T02:28:26.938952+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_no_property","Output":"=== CONT  TestFact_Verify/map_no_property\n"}
+{"Time":"2022-12-04T02:28:26.938956+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify","Output":"--- PASS: TestFact_Verify (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938959+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_is_nil","Output":"    --- PASS: TestFact_Verify/map_is_nil (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938963+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_is_nil","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938966+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_verified","Output":"    --- PASS: TestFact_Verify/map_property_verified (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938972+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_verified","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938975+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_less_than_threshold","Output":"    --- PASS: TestFact_Verify/map_property_less_than_threshold (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938985+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_less_than_threshold","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938988+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_type_is_mismatched","Output":"    --- PASS: TestFact_Verify/map_property_type_is_mismatched (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938991+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_type_is_mismatched","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.938994+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_is_nil","Output":"    --- PASS: TestFact_Verify/map_property_is_nil (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.938998+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_property_is_nil","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.939005+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_no_property","Output":"    --- PASS: TestFact_Verify/map_no_property (0.00s)\n"}
+{"Time":"2022-12-04T02:28:26.939009+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify/map_no_property","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.939012+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Test":"TestFact_Verify","Elapsed":0}
+{"Time":"2022-12-04T02:28:26.939016+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Output":"PASS\n"}
+{"Time":"2022-12-04T02:28:26.939019+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Output":"coverage: 56.3% of statements\n"}
+{"Time":"2022-12-04T02:28:26.939202+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine","Output":"ok  \tgithub.com/clavinjune/ononoki-engine\t0.121s\tcoverage: 56.3% of statements\n"}
+{"Time":"2022-12-04T02:28:26.939209+07:00","Action":"pass","Package":"github.com/clavinjune/ononoki-engine","Elapsed":0.121}
+{"Time":"2022-12-04T02:28:26.940582+07:00","Action":"output","Package":"github.com/clavinjune/ononoki-engine/example","Output":"?   \tgithub.com/clavinjune/ononoki-engine/example\t[no test files]\n"}
+{"Time":"2022-12-04T02:28:26.940604+07:00","Action":"skip","Package":"github.com/clavinjune/ononoki-engine/example","Elapsed":0}
