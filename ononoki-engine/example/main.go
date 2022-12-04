@@ -26,18 +26,18 @@ func main() {
 		ononoki.FactWithName[string]("herbivores type"),
 	)
 
-	r4 := ononoki.NewRule(nil, f4, c2)
-	r3 := ononoki.NewRule(nil, f3, c1)
+	r4 := ononoki.NewRuleLeaf(f4, c2)
+	r3 := ononoki.NewRuleLeaf(f3, c1)
 	r2 := ononoki.NewRule([]ononoki.Concluder{r3, r4}, f2, nil)
-	r1 := ononoki.NewRule(nil, f1, c3)
-	root := ononoki.NewRule([]ononoki.Concluder{r1, r2}, nil, nil)
+	r1 := ononoki.NewRuleLeaf(f1, c3)
+	root := ononoki.NewRuleRoot([]ononoki.Concluder{r1, r2})
 
 	data := []map[string]any{
 		{
 			"height": int64(100), // procompsognathus
 		},
 		{
-			"height": int64(101), // no conclusion
+			"height": int64(101), // property not found
 		},
 		{
 			"height": int64(101),

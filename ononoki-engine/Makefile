@@ -1,12 +1,15 @@
+include tools.mk
+
 .PHONY: fmt
 fmt:
 	@gofmt -w -s .
+	@go mod tidy
 	@go fix ./...
 
 .PHONY: lint
 lint:
 	@go vet ./...
-	@go run golang.org/x/vuln/cmd/govulncheck@latest ./...
+	@go run ${GOVULNCHECK} ./...
 
 .PHONY: test
 test:

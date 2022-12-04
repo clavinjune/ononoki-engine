@@ -18,12 +18,46 @@ type Rule struct {
 	Children []Concluder
 }
 
-func NewRule(children []Concluder, verifier Verifier, conclusion *Conclusion) *Rule {
-	return &Rule{
+// RuleOptFunc is used for setup optional attributes of Rule
+type RuleOptFunc func(*Rule)
+
+// RuleWithID sets Rule.ID
+func RuleWithID(id string) RuleOptFunc {
+	return func(r *Rule) {
+		r.ID = id
+	}
+}
+
+// RuleWithName sets Rule.Name
+func RuleWithName(name string) RuleOptFunc {
+	return func(r *Rule) {
+		r.Name = name
+	}
+}
+
+// NewRuleLeaf creates *Rule on leaf which has only Conclusion not children
+func NewRuleLeaf(verifier Verifier, conclusion *Conclusion, opts ...RuleOptFunc) *Rule {
+	return NewRule(nil, verifier, conclusion, opts...)
+}
+
+// NewRuleRoot creates the root of the decision tree
+func NewRuleRoot(children []Concluder, opts ...RuleOptFunc) *Rule {
+	return NewRule(children, nil, nil, opts...)
+}
+
+// NewRule creates *Rule
+func NewRule(children []Concluder, verifier Verifier, conclusion *Conclusion, opts ...RuleOptFunc) *Rule {
+	r := &Rule{
 		Verifier:   verifier,
 		Conclusion: conclusion,
 		Children:   children,
 	}
+
+	for _, opt := range opts {
+		opt(r)
+	}
+
+	return r
 }
 
 func (r *Rule) Conclude(m map[string]any) (*Conclusion, error) {
@@ -57,6 +91,7 @@ func (r *Rule) traverse(m map[string]any) (*Conclusion, error) {
 		if err != nil {
 			return nil, err
 		}
+
 		if conclusion != nil {
 			return conclusion, nil
 		}

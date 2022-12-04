@@ -23,6 +23,7 @@ const (
 // Comparator is used for dynamic comparator
 type Comparator string
 
+// Compare compares the given value and threshold
 func Compare[T Threshold](c Comparator, a, b T) bool {
 	switch c {
 	case ComparatorEQ:
