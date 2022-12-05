@@ -1,6 +1,22 @@
-package ononoki_engine
+// Copyright 2022 clavinjune/ononoki-engine
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
 
+package ononoki
+
+// Rule is the core of the decision tree
 type Rule struct {
+	_ struct{}
 	// ID is an optional unique identifier
 	ID string `json:"id,omitempty"`
 
@@ -60,6 +76,7 @@ func NewRule(children []Concluder, verifier Verifier, conclusion *Conclusion, op
 	return r
 }
 
+// Conclude returns Conclusion from the given data
 func (r *Rule) Conclude(m map[string]any) (*Conclusion, error) {
 	n := len(r.Children)
 	if r.Verifier == nil && n == 0 {

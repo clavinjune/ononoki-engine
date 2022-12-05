@@ -1,4 +1,4 @@
-module github.com/clavinjune/ononoki-engine
+module github.com/clavinjune/ononoki
 
 go 1.19
 

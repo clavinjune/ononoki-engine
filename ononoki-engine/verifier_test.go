@@ -21,26 +21,15 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-const (
-	ConclusionName string = "new conclusion"
-	ConclusionID   string = "C001"
-)
-
-func TestNewConclusion(t *testing.T) {
-	r := require.New(t)
-	c := ononoki.NewConclusion(ConclusionName)
-
-	r.Equal("", c.ID)
-	r.Equal(ConclusionName, c.Name)
-}
-
-func TestConclusionWithOpts(t *testing.T) {
+func TestVerifierFunc_Verify(t *testing.T) {
 	r := require.New(t)
 
-	c := ononoki.NewConclusion(ConclusionName,
-		ononoki.ConclusionWithID(ConclusionID),
-	)
+	ok, err := ononoki.VerifierFunc(
+		ononoki.NewFact("verify_func", ononoki.ComparatorEQ, "ok").
+			Verify).
+		Verify(map[string]any{})
 
-	r.Equal(ConclusionID, c.ID)
-	r.Equal(ConclusionName, c.Name)
+	r.False(ok)
+	r.NotNil(err)
+	r.Equal(ononoki.ErrFactPropertyNotFound, err)
 }

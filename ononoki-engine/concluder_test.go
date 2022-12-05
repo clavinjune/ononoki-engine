@@ -21,26 +21,14 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-const (
-	ConclusionName string = "new conclusion"
-	ConclusionID   string = "C001"
-)
-
-func TestNewConclusion(t *testing.T) {
+func TestConcluderFunc_Conclude(t *testing.T) {
 	r := require.New(t)
-	c := ononoki.NewConclusion(ConclusionName)
+	c, err := ononoki.ConcluderFunc(
+		ononoki.NewRuleRoot(nil).
+			Conclude).
+		Conclude(map[string]any{})
 
-	r.Equal("", c.ID)
-	r.Equal(ConclusionName, c.Name)
-}
-
-func TestConclusionWithOpts(t *testing.T) {
-	r := require.New(t)
-
-	c := ononoki.NewConclusion(ConclusionName,
-		ononoki.ConclusionWithID(ConclusionID),
-	)
-
-	r.Equal(ConclusionID, c.ID)
-	r.Equal(ConclusionName, c.Name)
+	r.Nil(c)
+	r.NotNil(err)
+	r.Equal(ononoki.ErrRuleInvalid, err)
 }

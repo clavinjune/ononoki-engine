@@ -1,4 +1,18 @@
-package ononoki_engine
+// Copyright 2022 clavinjune/ononoki-engine
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+package ononoki
 
 import (
 	"reflect"
@@ -6,6 +20,7 @@ import (
 
 // Fact holds the core of a certain ruleset
 type Fact[T Threshold] struct {
+	_ struct{}
 	// ID is an optional unique identifier
 	ID string `json:"id,omitempty"`
 
@@ -54,6 +69,7 @@ func NewFact[T Threshold](property string, comparator Comparator, threshold T, o
 	return f
 }
 
+// Verify verifies whether the given data is valid or not
 func (f *Fact[T]) Verify(m map[string]any) (bool, error) {
 	val, kind, err := f.propertyMetadata(m)
 	if err != nil {

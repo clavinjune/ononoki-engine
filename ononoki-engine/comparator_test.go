@@ -1,11 +1,25 @@
-package ononoki_engine_test
+// Copyright 2022 clavinjune/ononoki-engine
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+package ononoki_test
 
 import (
-	"fmt"
-	ononoki "github.com/clavinjune/ononoki-engine"
-	"github.com/stretchr/testify/require"
 	"reflect"
 	"testing"
+
+	"github.com/clavinjune/ononoki"
+	"github.com/stretchr/testify/require"
 )
 
 func TestCompare(t *testing.T) {
@@ -26,7 +40,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorEQ(string) false"),
+			Name:       "ComparatorEQ(string) false",
 			Comparator: ononoki.ComparatorEQ,
 			Value:      "a",
 			Threshold:  "b",
@@ -34,7 +48,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorEQ(string) true"),
+			Name:       "ComparatorEQ(string) true",
 			Comparator: ononoki.ComparatorEQ,
 			Value:      "a",
 			Threshold:  "a",
@@ -42,7 +56,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorNE(string) false"),
+			Name:       "ComparatorNE(string) false",
 			Comparator: ononoki.ComparatorNE,
 			Value:      "a",
 			Threshold:  "a",
@@ -50,7 +64,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorNE(string) true"),
+			Name:       "ComparatorNE(string) true",
 			Comparator: ononoki.ComparatorNE,
 			Value:      "a",
 			Threshold:  "b",
@@ -58,7 +72,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLT(string) true"),
+			Name:       "ComparatorLT(string) true",
 			Comparator: ononoki.ComparatorLT,
 			Value:      "a",
 			Threshold:  "b",
@@ -66,7 +80,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLT(string) false 1"),
+			Name:       "ComparatorLT(string) false 1",
 			Comparator: ononoki.ComparatorLT,
 			Value:      "b",
 			Threshold:  "b",
@@ -74,7 +88,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLT(string) false 2"),
+			Name:       "ComparatorLT(string) false 2",
 			Comparator: ononoki.ComparatorLT,
 			Value:      "c",
 			Threshold:  "b",
@@ -82,7 +96,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLE(string) true 1"),
+			Name:       "ComparatorLE(string) true 1",
 			Comparator: ononoki.ComparatorLE,
 			Value:      "a",
 			Threshold:  "b",
@@ -90,7 +104,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLE(string) true 2"),
+			Name:       "ComparatorLE(string) true 2",
 			Comparator: ononoki.ComparatorLE,
 			Value:      "b",
 			Threshold:  "b",
@@ -98,7 +112,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLE(string) false"),
+			Name:       "ComparatorLE(string) false",
 			Comparator: ononoki.ComparatorLE,
 			Value:      "c",
 			Threshold:  "b",
@@ -106,7 +120,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGT(string) true"),
+			Name:       "ComparatorGT(string) true",
 			Comparator: ononoki.ComparatorGT,
 			Value:      "c",
 			Threshold:  "b",
@@ -114,7 +128,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGT(string) false 1"),
+			Name:       "ComparatorGT(string) false 1",
 			Comparator: ononoki.ComparatorGT,
 			Value:      "b",
 			Threshold:  "b",
@@ -122,7 +136,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGT(string) false 2"),
+			Name:       "ComparatorGT(string) false 2",
 			Comparator: ononoki.ComparatorGT,
 			Value:      "a",
 			Threshold:  "b",
@@ -130,7 +144,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGE(string) true 1"),
+			Name:       "ComparatorGE(string) true 1",
 			Comparator: ononoki.ComparatorGE,
 			Value:      "b",
 			Threshold:  "b",
@@ -138,7 +152,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGE(string) true 2"),
+			Name:       "ComparatorGE(string) true 2",
 			Comparator: ononoki.ComparatorGE,
 			Value:      "c",
 			Threshold:  "b",
@@ -146,7 +160,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGE(string) false"),
+			Name:       "ComparatorGE(string) false",
 			Comparator: ononoki.ComparatorGE,
 			Value:      "a",
 			Threshold:  "b",
@@ -154,7 +168,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.String,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorEQ(int) false"),
+			Name:       "ComparatorEQ(int) false",
 			Comparator: ononoki.ComparatorEQ,
 			Value:      int64(1),
 			Threshold:  int64(2),
@@ -162,7 +176,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorEQ(int) true"),
+			Name:       "ComparatorEQ(int) true",
 			Comparator: ononoki.ComparatorEQ,
 			Value:      int64(1),
 			Threshold:  int64(1),
@@ -170,7 +184,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorNE(int) false"),
+			Name:       "ComparatorNE(int) false",
 			Comparator: ononoki.ComparatorNE,
 			Value:      int64(1),
 			Threshold:  int64(1),
@@ -178,7 +192,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorNE(int) true"),
+			Name:       "ComparatorNE(int) true",
 			Comparator: ononoki.ComparatorNE,
 			Value:      int64(1),
 			Threshold:  int64(2),
@@ -186,7 +200,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLT(int) true"),
+			Name:       "ComparatorLT(int) true",
 			Comparator: ononoki.ComparatorLT,
 			Value:      int64(1),
 			Threshold:  int64(2),
@@ -194,7 +208,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLT(int) false 1"),
+			Name:       "ComparatorLT(int) false 1",
 			Comparator: ononoki.ComparatorLT,
 			Value:      int64(1),
 			Threshold:  int64(1),
@@ -202,7 +216,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLT(int) false 2"),
+			Name:       "ComparatorLT(int) false 2",
 			Comparator: ononoki.ComparatorLT,
 			Value:      int64(2),
 			Threshold:  int64(1),
@@ -210,7 +224,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLE(int) true 1"),
+			Name:       "ComparatorLE(int) true 1",
 			Comparator: ononoki.ComparatorLE,
 			Value:      int64(1),
 			Threshold:  int64(2),
@@ -218,7 +232,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLE(int) true 2"),
+			Name:       "ComparatorLE(int) true 2",
 			Comparator: ononoki.ComparatorLE,
 			Value:      int64(1),
 			Threshold:  int64(1),
@@ -226,7 +240,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorLE(int) false"),
+			Name:       "ComparatorLE(int) false",
 			Comparator: ononoki.ComparatorLE,
 			Value:      int64(3),
 			Threshold:  int64(2),
@@ -234,7 +248,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGT(int) true"),
+			Name:       "ComparatorGT(int) true",
 			Comparator: ononoki.ComparatorGT,
 			Value:      int64(3),
 			Threshold:  int64(2),
@@ -242,7 +256,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGT(int) false 1"),
+			Name:       "ComparatorGT(int) false 1",
 			Comparator: ononoki.ComparatorGT,
 			Value:      int64(1),
 			Threshold:  int64(1),
@@ -250,7 +264,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGT(int) false 2"),
+			Name:       "ComparatorGT(int) false 2",
 			Comparator: ononoki.ComparatorGT,
 			Value:      int64(1),
 			Threshold:  int64(2),
@@ -258,7 +272,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGE(int) true 1"),
+			Name:       "ComparatorGE(int) true 1",
 			Comparator: ononoki.ComparatorGE,
 			Value:      int64(1),
 			Threshold:  int64(1),
@@ -266,7 +280,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGE(int) true 2"),
+			Name:       "ComparatorGE(int) true 2",
 			Comparator: ononoki.ComparatorGE,
 			Value:      int64(3),
 			Threshold:  int64(1),
@@ -274,7 +288,7 @@ func TestCompare(t *testing.T) {
 			Type:       reflect.Int64,
 		},
 		{
-			Name:       fmt.Sprintf("ComparatorGE(int) false"),
+			Name:       "ComparatorGE(int) false",
 			Comparator: ononoki.ComparatorGE,
 			Value:      int64(1),
 			Threshold:  int64(2),

@@ -9,6 +9,7 @@ See [example](./example/main.go)
 ## Roadmap
 
 - [x] Make it run
+- [ ] Add Reasoning
 - [ ] Better lint
 - [ ] Tidy up code
 - [ ] Add better docs

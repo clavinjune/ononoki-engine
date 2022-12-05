@@ -12,35 +12,5 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package ononoki_test
-
-import (
-	"testing"
-
-	"github.com/clavinjune/ononoki"
-	"github.com/stretchr/testify/require"
-)
-
-const (
-	ConclusionName string = "new conclusion"
-	ConclusionID   string = "C001"
-)
-
-func TestNewConclusion(t *testing.T) {
-	r := require.New(t)
-	c := ononoki.NewConclusion(ConclusionName)
-
-	r.Equal("", c.ID)
-	r.Equal(ConclusionName, c.Name)
-}
-
-func TestConclusionWithOpts(t *testing.T) {
-	r := require.New(t)
-
-	c := ononoki.NewConclusion(ConclusionName,
-		ononoki.ConclusionWithID(ConclusionID),
-	)
-
-	r.Equal(ConclusionID, c.ID)
-	r.Equal(ConclusionName, c.Name)
-}
+// Package ononoki is an expert system engine to compile the given rulebook using forward chaining method.
+package ononoki

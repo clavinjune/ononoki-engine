@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// this is an example package of using ononoki rule engine
-package main
+package ononoki_test
 
 import (
-	"log"
+	"testing"
 
 	"github.com/clavinjune/ononoki"
+	"github.com/stretchr/testify/require"
 )
 
-func main() {
+func TestRule_Conclude(t *testing.T) {
 	c1 := ononoki.NewConclusion("t-rex")
 	c2 := ononoki.NewConclusion("brontosaurus")
 	c3 := ononoki.NewConclusion("procompsognathus")
@@ -48,33 +48,71 @@ func main() {
 	r1 := ononoki.NewRuleLeaf(f1, c3)
 	root := ononoki.NewRuleRoot([]ononoki.Concluder{r1, r2})
 
-	data := []map[string]any{
+	tt := []struct {
+		Name                   string
+		Data                   map[string]any
+		ExpectedConclusionName string
+		ExpectedError          error
+	}{
 		{
-			"height": int64(100), // procompsognathus
+			Name: "procompsognathus",
+			Data: map[string]any{
+				"height": int64(100),
+			},
+			ExpectedConclusionName: c3.Name,
+			ExpectedError:          nil,
 		},
 		{
-			"height": int64(101), // property not found when checking "type"
+			Name: "property not found when checking `type`",
+			Data: map[string]any{
+				"height": int64(101),
+			},
+			ExpectedConclusionName: "",
+			ExpectedError:          ononoki.ErrFactPropertyNotFound,
 		},
 		{
-			"height": int64(101),
-			"type":   "carnivores", // t-rex
+			Name: "t-rex",
+			Data: map[string]any{
+				"height": int64(101),
+				"type":   "carnivores",
+			},
+			ExpectedConclusionName: c1.Name,
+			ExpectedError:          nil,
 		},
 		{
-			"height": int64(101),
-			"type":   "herbivores", // brontosaurus
+			Name: "brontosaurus",
+			Data: map[string]any{
+				"height": int64(101),
+				"type":   "herbivores",
+			},
+			ExpectedConclusionName: c2.Name,
+			ExpectedError:          nil,
 		},
 		{
-			"height": int64(101),
-			"type":   "omnivores", // no conclusion
+			Name: "no conclusion",
+			Data: map[string]any{
+				"height": int64(101),
+				"type":   "omnivores",
+			},
+			ExpectedConclusionName: "",
+			ExpectedError:          ononoki.ErrRuleNoConclusion,
 		},
 	}
 
-	for _, d := range data {
-		conclusion, err := root.Conclude(d)
-		if err != nil {
-			log.Println("err", err)
-		} else {
-			log.Println("conclusion", conclusion.Name)
-		}
+	for i := range tt {
+		tc := tt[i]
+		t.Run(tc.Name, func(t *testing.T) {
+			t.Parallel()
+			r := require.New(t)
+
+			c, err := root.Conclude(tc.Data)
+			r.Equal(tc.ExpectedError, err)
+			if tc.ExpectedConclusionName != "" {
+				r.NotNil(c)
+				r.Equal(c.Name, tc.ExpectedConclusionName)
+			} else {
+				r.Nil(c)
+			}
+		})
 	}
 }
