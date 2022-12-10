@@ -15,7 +15,7 @@ See [example](./example/main.go)
 ## Usage
 
 ```shell
-go get -u github.com/clavinjune/piper
+go get -u github.com/clavinjune/ononoki-engine
 ```
 
 ## Roadmap
