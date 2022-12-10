@@ -42,6 +42,24 @@ func main() {
 		ononoki.FactWithName[string]("herbivores type"),
 	)
 
+	/*
+		                      +------------------+     +--------------+
+		                      |   herbivores?    | --> | brontosaurus |
+		                      +------------------+     +--------------+
+		                        ^
+		                        |
+		                        |
+		+---------------+     +------------------+     +--------------+     +-------+
+		|     root      | --> |   height > 100   | --> | carnivores?  | --> | t-rex |
+		+---------------+     +------------------+     +--------------+     +-------+
+		  |
+		  |
+		  v
+		+---------------+     +------------------+
+		| height <= 100 | --> | procompsognathus |
+		+---------------+     +------------------+
+	*/
+
 	r4 := ononoki.NewRuleLeaf(f4, c2)
 	r3 := ononoki.NewRuleLeaf(f3, c1)
 	r2 := ononoki.NewRule([]ononoki.Concluder{r3, r4}, f2, nil)
