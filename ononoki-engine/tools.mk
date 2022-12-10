@@ -1,3 +1,6 @@
+GOIMPORTS_VERSION := v0.4.0
+GOIMPORTS := golang.org/x/tools/cmd/goimports@$(GOIMPORTS_VERSION)
+
 GOVULNCHECK_VERSION := latest
 GOVULNCHECK := golang.org/x/vuln/cmd/govulncheck@$(GOVULNCHECK_VERSION)
 
